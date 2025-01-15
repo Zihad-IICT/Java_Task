@@ -1,0 +1,12 @@
+package BasicJava;
+import java.util.Scanner;
+public class AreaCircle {
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        double pi=3.1416,radius,area;
+        System.out.print("Enter radius:");
+        radius=input.nextDouble();
+        area=pi*radius*radius;
+        System.out.print("Area of a Circle="+area);
+    }
+}
