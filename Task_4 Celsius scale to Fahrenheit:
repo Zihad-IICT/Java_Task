@@ -1,0 +1,12 @@
+package BasicJava;
+import java.util.Scanner;
+public class CelsiusToFahrenheit {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        double C,F;
+        System.out.print("Enter Celsius:");
+        C=input.nextDouble();
+        F=1.8*C+32;
+        System.out.print("Enter Fahrenheit="+F);
+    }
+}
