@@ -1,0 +1,14 @@
+package BasicJava;
+
+import java.util.Scanner;
+
+public class VolumeOfABall {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        double pi=3.1416,radius,volume;
+        System.out.print("Enter radius:");
+        radius=input.nextDouble();
+        volume=1.33*pi*radius*radius*radius;
+        System.out.print("Volume of a Ball="+volume);
+    }
+}
