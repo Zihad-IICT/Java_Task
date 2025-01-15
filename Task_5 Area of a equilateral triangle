@@ -1,0 +1,12 @@
+package BasicJava;
+import java.util.Scanner;
+public class AreaEquilateralTriangle {
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        double arm,area;
+        System.out.print("Enter arm:");
+        arm=input.nextDouble();
+        area=0.433*arm*arm;
+        System.out.print("Enter area of equilateral triangle : " +area);
+    }
+}
